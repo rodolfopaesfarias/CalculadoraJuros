@@ -17,12 +17,10 @@ A solução está configurada para executar 2 projetos:
 1. CalculadoraJurosAPI
 2. TaxaJurosAPI
 
-A CalculadoraJurosAPI faz uma chamada a TaxaJurosAPI, para identificar a URL que deve ser acessada no projeto CalculadoraJurosAPI no arquivo appsettings.json
-existe uma chave chamada TaxaJurosAPI, conforme abaixo:
+A CalculadoraJurosAPI faz uma chamada a TaxaJurosAPI, para identificar a URL que deve ser acessada no projeto CalculadoraJurosAPI no arquivo appsettings.json existe uma chave chamada TaxaJurosAPI, conforme abaixo:
 - "TaxaJurosAPI": "https://localhost:44358/taxaJuros"
 
-Em ambos projetos de API (CalculadoraJurosAPI e TaxaJurosAPI) está implementado o Swagger, portanto acessando a URL base de cada um /swagger irá exibir a documentação
-de cada uma delas. 
+Em ambos projetos de API (CalculadoraJurosAPI e TaxaJurosAPI) está implementado o Swagger, portanto acessando a URL base de cada um /swagger irá exibir a documentação de cada uma delas. 
 Exemplo: https://localhost:44357/swagger
 
 # Exemplos de Chamadas
@@ -37,5 +35,3 @@ Retornará 1126.82
   
 https://localhost:44357/showmethecode
 Retornará https://github.com/rodolfopaesfarias/CalculadoraJuros
-
-
