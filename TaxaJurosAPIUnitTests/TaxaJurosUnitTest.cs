@@ -4,14 +4,15 @@ using Xunit;
 
 namespace TaxaJurosAPIUnitTests
 {
-    public class TaxaJurosUnitTests
+    public class TaxaJurosUnitTest
     {
+        
         [Fact]
-        public void TestTaxaJurosAPI()
+        public void IsTaxaJurosIgualTaxaJurosPadrao()
         {
             var taxaJurosController = new TaxaJurosAPI.Controllers.TaxaJurosController();
             decimal taxaJuros = taxaJurosController.GetTaxaJuros();
-            Assert.True(taxaJuros == TaxaJurosAPI.Models.Juros.TaxaJurosPadrao);
+            Assert.Equal(taxaJuros, TaxaJurosAPI.Models.Juros.TaxaJurosPadrao);
         }
     }
 }

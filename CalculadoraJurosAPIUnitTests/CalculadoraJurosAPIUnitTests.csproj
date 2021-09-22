@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CalculadoraJuros\CalculadoraJurosAPI.csproj" />
+    <ProjectReference Include="..\TaxaJurosAPI\TaxaJurosAPI.csproj" />
+  </ItemGroup>
+
 </Project>

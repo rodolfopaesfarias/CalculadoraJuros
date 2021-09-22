@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\GitHub\DesafioSP\CalculadoraJuros\CalculadoraJuros\CalculadoraJuros.xml</DocumentationFile>
+    <DocumentationFile>D:\GitHub\DesafioSP\CalculadoraJuros\CalculadoraJuros\CalculadoraJurosAPI.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
