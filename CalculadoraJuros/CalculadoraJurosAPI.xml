@@ -13,6 +13,12 @@
             <param name="tempoEmMeses">Tempo em meses para o cálculo de juros (deve estar entre 0 e 1200)</param>
             <returns></returns>
         </member>
+        <member name="M:CalculadoraJuros.Controllers.ShowMeTheCodeController.GetGitHubURL">
+            <summary>
+            Retorna a URL do projeto no github
+            </summary>        
+            <returns></returns>
+        </member>
         <member name="T:CalculadoraJuros.Models.CalculadoraJurosCompostos">
             <summary>
             Responsável por calcular juros compostos baseado no valor inicial, taxa de juros e tempo em meses    
