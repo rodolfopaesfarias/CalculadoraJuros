@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalculadoraJuros</name>
+    </assembly>
+    <members>
+        <member name="M:CalculadoraJuros.Controllers.CalculadoraJurosController.GetValorComJuros(System.Decimal,System.Int32)">
+            <summary>
+            Calcula valor final aplicado juros compostos
+            Taxa de juros é proveniente de API taxaJuros
+            </summary>
+            <param name="valorInicial">Valor base para o cálculo</param>
+            <param name="tempoEmMeses">Tempo em meses para o cálculo de juros (deve estar entre 0 e 1200)</param>
+            <returns></returns>
+        </member>
+        <member name="T:CalculadoraJuros.Models.CalculadoraJurosCompostos">
+            <summary>
+            Responsável por calcular juros compostos baseado no valor inicial, taxa de juros e tempo em meses    
+            </summary>
+        </member>
+        <member name="M:CalculadoraJuros.Models.CalculadoraJurosCompostos.GetValorFinal(System.Decimal,System.Decimal,System.Int32)">
+            <summary>
+            Calcula valor final do montante aplicado juros compostos
+            </summary>
+            <param name="valorInicial">Valor base para o cálculo</param>
+            <param name="taxaJuros">Taxa de juros (Exemplo: para 1%, passar 0.01)</param>
+            <param name="tempoEmMeses">Número de meses para cálculo, valor deve estar entre 0 e 1200 (100 anos)</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

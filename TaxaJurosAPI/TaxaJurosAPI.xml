@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaxaJurosAPI</name>
+    </assembly>
+    <members>
+        <member name="M:TaxaJurosAPI.Controllers.TaxaJurosController.GetTaxaJuros">
+            <summary>
+            Retorna a taxa de juros padrão para cálculo do valor de juros (Para 1% de juros retornará 0.01)
+            </summary>        
+        </member>
+        <member name="M:TaxaJurosAPI.Models.Juros.#ctor">
+            <summary>
+            Inicializa taxa de juros com percentual padrão de juros        
+            </summary>        
+        </member>
+    </members>
+</doc>
