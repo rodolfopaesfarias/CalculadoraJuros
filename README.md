@@ -28,14 +28,14 @@ Exemplo: https://localhost:44357/swagger
 # Exemplos de Chamadas
 
 1. TaxaJurosAPI:
-  https://localhost:44358/taxaJuros
-  Retornará 0.01
+https://localhost:44358/taxaJuros
+Retornará 0.01
 
 2. CalculadoraJurosAPI
-  https://localhost:44357/calculajuros?valorInicial=1000&tempoEmMeses=12
-  Retornará 1126.82
+https://localhost:44357/calculajuros?valorInicial=1000&tempoEmMeses=12
+Retornará 1126.82
   
-  https://localhost:44357/showmethecode
-  Retornará https://github.com/rodolfopaesfarias/CalculadoraJuros
+https://localhost:44357/showmethecode
+Retornará https://github.com/rodolfopaesfarias/CalculadoraJuros
 
 
