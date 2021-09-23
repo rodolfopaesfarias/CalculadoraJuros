@@ -12,7 +12,7 @@ O repositório possui uma solução do Visual Studio com 5 projetos:
 5. SwaggerController: Library que provê funções de configuração e ativação do Swagger usada pelos projetos CalculadoraJurosAPI e TaxaJurosAPI.
 
 # Como Executar a Solução
-Basta fazer o download do código fonte, abrir a solução (arquivo CalculadoraJuros.sln) no Microsoft Visual Studio configurar para iniciar múltiplos projetos sendo os projetos abaixo para serem iniciados:
+Basta fazer o download do código fonte, abrir a solução (arquivo CalculadoraJuros.sln) no Microsoft Visual Studio e configurar para iniciar múltiplos projetos sendo os projetos abaixo para serem iniciados:
 1. CalculadoraJurosAPI
 2. TaxaJurosAPI
 
